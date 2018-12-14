@@ -9,10 +9,14 @@
 	flex-wrap: wrap;
 	}
 	
-	#logo{float: left;
+	.logo{float:left;
 		display: inline-block;
 		width: 333px;
-	  border:1px solid black;}
+		border:1px solid black;}
+	.signup{
+		float: right;
+	}	
+
   /* Navbar links */
 .topnav a {
 	float: left;
