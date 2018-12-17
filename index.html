@@ -11,17 +11,27 @@
 <body>
     
     <nav>
-        <div class="topnav">  
-                <a href="index.html">
-                        <img  src="images//download.png" id="logo">
-                 </a>
-                      
-                <div class="login-container">
-                      <form action="">
-                      <input type="text" placeholder="Your username" name="username">
-                      <input type="password" placeholder="Password" name="psw">
-                      <button type="submit">Login</button> 
-               </div>
+        <div class="navigation">  
+            <ul class="nav-items">
+                <li>
+                    <div class="logo-image">
+                        <a href="index.html"><img  src="images//download.png" id="logo"></a>                          
+                    </div>
+                </li>
+                <li class="to-right">
+                    <div class="login-form">
+                        <div class="loging-content">
+                            <form action="">
+                            <input type="text" placeholder="Your username" name="username" class="username">
+                            <input type="password" placeholder="Password" name="psw" class="password">
+                            <button type="submit" class="login-btn">Login</button> 
+                        </div>  
+                        <div class="registration"><p>Dont have an account? Create one here </p>
+                            <p class="reg"><a href="MoreAccountcreation.html">Register</a></p>
+                        </div> 
+                    </div>  
+                </li>
+            </ul>             
                     
         </div>
     </nav>

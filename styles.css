@@ -6,14 +6,19 @@
 	overflow: hidden;
 	background-color: #D1E0ED;
   flex-wrap: wrap;
-  height: 70px;
+  height: 90px;
 	}
 	
+	.navregister{
+		float:right;
+		margin-top: 38px;
+	}
+
 	#logo{float:left;
 		display: inline-block;
     width: 333px;
-    height: 70px;
-    border:1px solid black;
+    height: 88px;
+    border:1px;
   }
     
   /* Navbar links */
@@ -177,4 +182,15 @@ a {
   text-align: center;
 }
 
+ul.nav-items {
+	display: inline-flex;
+}
 
+li.to-right {
+	right: 0;
+	margin-left: 24em;
+}
+
+ul {
+  list-style-type: none;
+}
